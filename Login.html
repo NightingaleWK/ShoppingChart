@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>王楷的项目</title>
+</head>
+<body>
+
+<!-- //这是登录界面的源码，很简陋，下面我用表格做了一些美化，很好看！
+<form name="reg" action="/ShoppingChart/LoginServlet" method="post">
+		登录账号：<input name="username" type="text" /><br /> 
+		账户密码：<input name="password" type="password" /><br /> 
+		验证信息：<input type="text" name="check_code"> 
+		<img src="/wangkai/CheckServlet"><br><br>
+		<input type="submit" value="Link Start！" id="bt" />
+ --> 
+ 
+		<h1>欢迎使用购物车系统</h1>
+		<form name="reg" action="/wangkai/LoginServlet" method="post">
+		<table border="0">
+			<tr>
+				<th>登录账号</th>
+				<td><input name="username" type="text" /></td>
+			</tr>
+			<tr>
+				<th>账户密码</th>
+				<td><input name="password" type="password" /><br /></td>
+			</tr>
+			<tr>
+				<th>验证信息</th>
+				<td><input type="text" name="check_code"> <br /></td>
+				<td><img src="/wangkai/CheckServlet"></td>
+			</tr>
+			<tr>
+				<td><input type="submit" value="Link Start！" id="bt" /></td>
+			</tr>
+		</table>
+		</form>
+		
+		
+</body>
+</html>
